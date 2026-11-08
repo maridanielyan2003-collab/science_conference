@@ -1,0 +1,1344 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .div1 {
+        padding: 10px 5px;
+        font-size: 10px;
+        height: 80px;
+    }
+
+    .div1 img {
+        width: 30%;
+    }
+
+    .navbar-nav {
+        display: none !important;
+    }
+
+    .div1 button {
+        width: 37%;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .slide {
+        padding-right: 15px;
+        padding-left: 15px;
+        justify-content: center !important;
+    }
+
+    .div2 {
+        text-align: right !important;
+        padding: 0 10px;
+    }
+
+    .div2 h2 {
+        font-size: 32px;
+        line-height: 1.3;
+        text-align: right;
+    }
+
+    .div2 h5 {
+        font-size: 12px;
+        margin-left: auto;
+        margin-right: 0px;
+        text-align: right;
+    }
+
+    .div2 button {
+        width: 207px;
+        text-align: right;
+        font-size: 12px;
+
+    }
+
+    .div2 button:hover {
+        background: white;
+        color: black;
+    }
+
+    .slide.center-slide {
+        padding-right: 15px;
+        /* padding-left: 15px; */
+        justify-content: center !important;
+    }
+
+    .slide.center-slide .div2 {
+        text-align: center !important;
+        padding: 0 10px;
+    }
+
+    .slide.center-slide .div2 h3 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .slide.center-slide .div2 h2 {
+        font-size: 25px;
+        line-height: 1.3;
+        text-align: center;
+    }
+
+    .slide img {
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        z-index: 1;
+    }
+
+    .prev-btn,
+    .next-btn {
+        top: 150px;
+        font-size: 12px;
+    }
+
+
+    .slide img.second-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover !important;
+        background-color: #0b0f19;
+    }
+
+    .header-slider,
+    .slide {
+        height: 600px !important;
+    }
+
+    .slide img.second-img {
+        object-fit: cover !important;
+        object-position: center center !important;
+    }
+
+    .icon {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+    }
+
+    .icon .month,
+    .icon .name {
+        width: 100%;
+        justify-content: flex-start;
+        padding-left: 20px;
+    }
+
+    .btnn {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    .btnn .but1 {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .gradient-bg::before {
+        width: 300px;
+        bottom: -30px;
+        left: -20px;
+        width: calc(100% + 15px);
+    }
+
+    .div3 {
+        height: auto !important;
+        padding: 40px 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .div3 .poqr,
+    .div3 .poqr2,
+    .div3 .poqr3 {
+        position: static !important;
+        width: 100% !important;
+        height: auto !important;
+        left: auto !important;
+        right: auto !important;
+        top: auto !important;
+        bottom: auto !important;
+    }
+
+    .poqr button:hover {
+        background: white;
+        color: black;
+    }
+
+    .poqr1 {
+        position: static !important;
+        width: 100% !important;
+        height: 280px !important;
+        background-size: cover;
+        background-position: center;
+        margin-top: 20px;
+    }
+
+    .poqr h2,
+    .poqr2 h2 {
+        font-size: 20px !important;
+        line-height: 1.3;
+    }
+
+    .poqr3 {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .poqr3 div {
+        width: 50px !important;
+        height: 70px !important;
+        padding: 10px 0px !important;
+    }
+
+    .poqr3 span {
+        font-size: 20px !important;
+    }
+
+    .poqr3 p {
+        font-size: 12px !important;
+        color: lightgrey;
+    }
+
+    .div4 {
+        padding: 30px 15px !important;
+        min-height: auto !important;
+    }
+
+    .poqr4 h2 {
+        font-size: 24px !important;
+    }
+
+    .poqr6 {
+        flex: 1 1 100% !important;
+        max-width: 100% !important;
+        height: 400px !important;
+    }
+
+    .schedule-tabs {
+        width: 100%;
+        height: 80px;
+        font-size: 14px;
+    }
+
+    .tab-btn {
+        width: 33.3%;
+        font-size: 14px;
+    }
+
+    .tab-btn span {
+        font-size: 9px;
+    }
+
+    .schedule-section,
+    div[class*="schedule"],
+    .div-schedule {
+        width: 100% !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        box-sizing: border-box !important;
+    }
+
+    .schedule-item {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+        padding: 20px 10px !important;
+        margin: 0 0 15px 0 !important;
+        height: auto !important;
+    }
+
+    .item-left {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 100% !important;
+        padding: 0 !important;
+        gap: 10px !important;
+    }
+
+    .item-middle {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .btn,
+    .view-btn {
+        width: 100% !important;
+        max-width: 250px !important;
+        margin: 15px auto 0 auto !important;
+        display: block !important;
+        font-size: 12px;
+        padding: 10px 20px !important;
+    }
+
+    .div5 {
+        flex: 1 1 100% !important;
+        max-width: 100% !important;
+        height: 1700px !important;
+        flex-wrap: wrap;
+    }
+
+    .poqr8 {
+        width: 100%;
+        height: 5.px;
+    }
+
+    .poqr9 {
+        flex: 1 1 100% !important;
+        flex-wrap: wrap !important;
+        max-width: 100% !important;
+        height: 1000px !important;
+        padding: 5px 20px !important;
+    }
+
+    .div {
+        flex: 1 1 100% !important;
+        width: 100% !important;
+        height: 480px !important;
+        max-width: 600px;
+    }
+
+    .pass {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+
+    .ticket-icon i {
+        font-size: 34px;
+        margin-top: 20px;
+    }
+
+    .ticket-price {
+        font-size: 30px;
+        margin-top: 30px;
+        font-weight: 900;
+    }
+
+    .ticket-price span {
+        font-size: 12px;
+        color: gray;
+    }
+
+    .but {
+        width: 100%;
+        height: 40px;
+        font-size: 12px;
+        padding: 10px 20px !important;
+    }
+
+    .table-detail {
+        padding: 0 20px;
+    }
+
+    .div6 {
+        height: auto;
+        width: 100%;
+    }
+
+    .poqr11 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5px;
+        margin: 0 auto;
+        padding: 20px 10px;
+        box-sizing: border-box;
+
+    }
+
+    .poqr12 {
+        width: 100%;
+        height: 70px;
+        border: 1px solid #ffffff9b;
+    }
+
+    .poqr12 img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .testimonials-container {
+        flex-direction: row !important;
+        padding: 10px 0px !important;
+        gap: 15px !important;
+        height: auto;
+        width: 100%;
+
+    }
+
+    .cards-wrapper {
+        flex-direction: row !important;
+        gap: 15px !important;
+        width: 100% !important;
+    }
+
+    .testimonial-card {
+        flex: 1 0 100%;
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+
+    .testimonials-container {
+        padding: 0 15px;
+    }
+
+
+    .slider-arrow {
+        display: flex;
+        margin-top: 20px;
+        flex-direction: row;
+        width: 33px;
+    }
+
+    .div7 {
+        flex: 1 1 100% !important;
+        max-width: 100% !important;
+        height: 1400px !important;
+        flex-wrap: wrap;
+    }
+
+    .poqr13 {
+        width: 100%;
+        height: 50px;
+    }
+
+    .poqr14 {
+        flex: 1 1 100% !important;
+        flex-wrap: wrap !important;
+        max-width: 100% !important;
+        height: 1000px !important;
+        padding: 10px 30px;
+
+    }
+
+    .divv1 {
+        flex: 1 1 100% !important;
+        max-width: 100% !important;
+        height: 400px !important;
+    }
+
+    .divv1 p {
+        font-size: 14px;
+        padding: 0px 0px;
+    }
+
+    .post-meta {
+        width: 100%;
+    }
+
+    .post-meta p {
+        font-size: 14px;
+    }
+
+    .div8 {
+        height: auto !important;
+        padding-bottom: 40px;
+    }
+
+    .poqr15 {
+        height: auto !important;
+        padding: 15px 10px;
+    }
+
+    .poqr15 h2 {
+        font-size: 24px !important;
+    }
+
+    .poqr16 {
+        flex-direction: column !important;
+        height: auto !important;
+        gap: 20px !important;
+        margin-top: 10px !important;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .poqr17 {
+        width: 100% !important;
+        height: auto !important;
+        padding: 10px !important;
+        text-align: center;
+    }
+
+    .contact {
+        width: 100% !important;
+        margin: 0 auto 20px auto !important;
+    }
+
+    .contact-form {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        padding: 20px 15px !important;
+        box-sizing: border-box;
+    }
+
+    .form-row {
+        flex-direction: column !important;
+        gap: 15px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .submit-btn {
+        width: 100% !important;
+        padding: 12px 20px !important;
+    }
+
+    .footer {
+        flex: 1 1 100% !important;
+        max-width: 100% !important;
+        height: 1300px !important;
+        flex-wrap: wrap;
+    }
+
+    .foot {
+        flex: 1 1 100% !important;
+        flex-wrap: wrap !important;
+        max-width: 100% !important;
+        height: 320px !important;
+        padding: 5px 10px;
+    }
+
+    .logo {
+        max-width: 30%;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .foot p {
+        color: #9293bc;
+        font-size: 17px;
+        font-family: 'Poppins', sans-serif;
+        line-height: 1.8;
+        font-weight: 400;
+        margin: 0 0 16px;
+    }
+
+    .icons {
+        display: flex;
+        align-items: center;
+        gap: 5px
+    }
+
+    .foot_gellery {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        gap: 5px 5px;
+    }
+
+    .foot_gellery img {
+        width: calc(33.333% - 4px);
+        height: 75px;
+        object-fit: cover;
+        border-radius: 5px;
+        display: block;
+    }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .div1 {
+        padding: 15px 20px;
+    }
+
+    .div1 img {
+        width: 30%;
+    }
+
+    .navbar-nav {
+        display: none !important;
+    }
+
+    .div1 button {
+        width: 20%;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .slide {
+        padding-right: 30px;
+        justify-content: center !important;
+    }
+
+    .div2 {
+        text-align: right !important;
+        padding: 0 10px;
+    }
+
+    .div2 h2 {
+        font-size: 32px;
+        line-height: 1.3;
+        text-align: right;
+    }
+
+    .div2 h5 {
+        font-size: 12px;
+        margin-left: auto;
+        margin-right: 0px;
+        text-align: right;
+    }
+
+    .div2 button {
+        width: 207px;
+        text-align: right;
+        font-size: 12px;
+    }
+
+    .gradient-bg::before {
+        bottom: -30px;
+        left: -20px;
+        width: calc(100% + 15px);
+    }
+
+    .div3 {
+        height: auto !important;
+        padding: 50px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .div3 .poqr,
+    .div3 .poqr2,
+    .div3 .poqr3 {
+        position: static !important;
+        width: 100% !important;
+        height: auto !important;
+        left: auto !important;
+        right: auto !important;
+    }
+
+    .poqr1 {
+        position: static !important;
+        width: 100% !important;
+        height: 380px !important;
+        background-size: cover;
+        background-position: center;
+        margin-top: 20px;
+    }
+
+    .poqr h2,
+    .poqr2 h2 {
+        font-size: 28px !important;
+    }
+
+    .poqr3 {
+        width: 100%;
+
+    }
+
+    .poqr3 div {
+        width: 80px !important;
+        height: 70px !important;
+        padding: 10px 0px !important;
+    }
+
+    .poqr3 span {
+        font-size: 20px !important;
+    }
+
+    .poqr3 p {
+        font-size: 12px !important;
+        color: lightgrey;
+    }
+
+    .div4 {
+        padding: 40px 20px !important;
+        min-height: auto !important;
+    }
+
+    .poqr4 h2 {
+        font-size: 28px !important;
+    }
+
+    .poqr6 {
+        flex: 1 1 100% !important;
+        max-width: 100% !important;
+        height: 450px !important;
+    }
+
+    .poqr5 {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .schedule-section,
+    div[class*="schedule"],
+    .div-schedule {
+        width: 100% !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        box-sizing: border-box !important;
+    }
+
+    .schedule-item {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+        padding: 25px 15px !important;
+        margin: 0 0 20px 0 !important;
+        height: auto !important;
+    }
+
+    .item-left {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 100% !important;
+        padding: 0 !important;
+        gap: 15px !important;
+    }
+
+    .item-middle {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .btn,
+    .view-btn {
+        width: 80% !important;
+        max-width: 250px !important;
+        margin: 20px auto 0 auto !important;
+        display: block !important;
+    }
+
+    .div5 {
+        flex: 1 1 100% !important;
+        max-width: 100% !important;
+        height: 1900px !important;
+        flex-wrap: wrap;
+    }
+
+    .poqr8 {
+        width: 100%;
+        height: 5.px;
+    }
+
+    .poqr9 {
+        flex: 1 1 100% !important;
+        flex-wrap: wrap !important;
+        width: 100% !important;
+        max-width: 500px !important;
+        height: 1200px !important;
+        padding: 5px 50px !important;
+    }
+
+    .div {
+        flex: 1 1 100% !important;
+        max-width: 100% !important;
+        height: 550px !important;
+        padding: 10px 10px;
+    }
+
+    .pass {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+
+    .ticket-icon i {
+        font-size: 54px;
+        margin-top: 20px;
+    }
+
+    .ticket-price {
+        font-size: 50px;
+        margin-top: 30px;
+        font-weight: 900;
+    }
+
+    .ticket-price span {
+        font-size: 22px;
+        color: gray;
+    }
+
+    .but {
+        width: 300px;
+        height: 45px;
+    }
+
+    .div6 {
+        height: auto;
+        width: 100%;
+    }
+
+    .poqr11 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5px;
+        margin: 0 auto;
+        padding: 20px 10px;
+        box-sizing: border-box;
+
+    }
+
+    .poqr12 {
+        width: 100%;
+        height: 70px;
+        border: 1px solid #ffffff9b;
+    }
+
+    .poqr12 img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .testimonials-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+        background-color: rgb(31, 31, 81);
+        padding: 0 0px;
+        box-sizing: border-box;
+    }
+
+    .slides {
+        width: 100%;
+        flex: 1 0 100%;
+        display: flex
+    }
+
+    .cards-wrapper {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .testimonial-card {
+        flex: 1 0 100%;
+        width: 100% !important;
+        max-width: 100% !important;
+        height: 400px !important;
+        padding: 25px 20px !important;
+    }
+
+    .slider-arrow {
+        margin: 0 2px;
+    }
+
+    .div7 {
+        flex: 1 1 100% !important;
+        max-width: 100% !important;
+        height: 1700px !important;
+        flex-wrap: wrap;
+    }
+
+    .poqr13 {
+        width: 100%;
+        height: 50px;
+    }
+
+    .poqr14 {
+        flex: 1 1 100% !important;
+        flex-wrap: wrap !important;
+        max-width: 100% !important;
+        height: 900px !important;
+        padding: 5px 10px;
+    }
+
+    .divv1 {
+        max-width: 100% !important;
+        height: 460px !important;
+    }
+
+    .divv1 p {
+        font-size: 14px;
+        padding: 0px 0px;
+    }
+
+    .post-meta {
+        width: 100%;
+    }
+
+    .post-meta p {
+        font-size: 14px;
+    }
+
+    .div8 {
+        height: auto !important;
+        padding-bottom: 50px;
+    }
+
+    .poqr15 {
+        height: auto !important;
+        padding: 20px 15px;
+    }
+
+    .poqr16 {
+        flex-direction: column !important;
+        height: auto !important;
+        gap: 30px !important;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .poqr17 {
+        width: 100% !important;
+        height: auto !important;
+        padding: 10px 20px !important;
+        text-align: center;
+    }
+
+    .contact {
+        width: 100% !important;
+        margin: 0 auto 20px auto !important;
+    }
+
+    .contact-form {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        padding: 25px 20px !important;
+        box-sizing: border-box;
+    }
+
+    .form-row {
+        flex-direction: column !important;
+        gap: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .submit-btn {
+        width: 100% !important;
+    }
+
+    .footer {
+        flex: 1 1 100% !important;
+        max-width: 100% !important;
+        height: 1300px !important;
+        flex-wrap: wrap;
+    }
+
+    .foot {
+        flex: 1 1 100% !important;
+        flex-wrap: wrap !important;
+        max-width: 100% !important;
+        height: 320px !important;
+        padding: 5px 10px;
+    }
+
+    .logo {
+        max-width: 30%;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .foot p {
+        color: #9293bc;
+        font-size: 17px;
+        font-family: 'Poppins', sans-serif;
+        line-height: 1.8;
+        font-weight: 400;
+        margin: 0 0 16px;
+    }
+
+    .icons {
+        display: flex;
+        align-items: center;
+        gap: 5px
+    }
+
+    .foot_gellery {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        /* align-content: center; */
+        gap: 5px 5px;
+    }
+
+    .foot_gellery img {
+        width: calc(33.333% - 4px);
+        height: 95px;
+        object-fit: cover;
+        border-radius: 5px;
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .div1 {
+        padding: 20px 30px;
+    }
+
+    .navbar-nav {
+        display: none !important;
+    }
+
+    .div1 img {
+        width: 30%;
+    }
+
+    .div1 button {
+        width: 20%;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .slide {
+        padding-right: 60px;
+    }
+
+    .div2 h2 {
+        font-size: 50px;
+    }
+
+    .div3 {
+        width: 100%;
+        height: auto !important;
+        min-height: 100vh;
+        position: relative;
+        padding-bottom: 40px;
+    }
+
+    .poqr {
+        width: 450px !important;
+        left: 30px !important;
+        top: 30px !important;
+        padding: 0 40px;
+    }
+
+    .poqr h2,
+    .poqr2 h2 {
+        font-size: 14px !important;
+        line-height: 1.3 !important;
+    }
+
+    .poqr1 {
+        width: 400px !important;
+        height: 400px !important;
+        right: 30px !important;
+        top: 30px !important;
+        background-size: cover;
+        background-position: center;
+        padding: 0 50px;
+    }
+
+    .poqr2 {
+        width: 300px !important;
+        left: 20px !important;
+        bottom: -50px !important;
+        padding: 0 50px;
+
+    }
+
+    .poqr3 {
+        width: 500px !important;
+        right: 20px !important;
+        bottom: 50px !important;
+        height: auto !important;
+        gap: 10px;
+
+    }
+
+    .poqr3 div {
+        width: 100px !important;
+        height: 100px !important;
+        padding: 10px 5px !important;
+    }
+
+    .poqr3 span {
+        font-size: 28px !important;
+    }
+
+    .poqr3 p {
+        font-size: 14px !important;
+    }
+
+    .div4 {
+        padding: 20px 20px !important;
+    }
+
+    .poqr6 {
+        flex: 1 1 46% !important;
+        max-width: 50% !important;
+        height: 450px !important;
+    }
+
+    .poqr5 {
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .schedule-section,
+    div[class*="schedule"],
+    .div-schedule {
+        width: 100% !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        box-sizing: border-box !important;
+    }
+
+    .schedule-item {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+        padding: 15px 25px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .item-left {
+        display: flex !important;
+        align-items: center !important;
+        gap: 20px !important;
+        padding: 0 !important;
+    }
+
+    .item-middle {
+        text-align: left !important;
+    }
+
+    .item-middle p {
+        font-size: 12px;
+    }
+
+    .item-title p {
+        margin: 0;
+        color: #a0aec0;
+        font-size: 10px;
+    }
+
+    .btn {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 250px !important;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .view-btn {
+        margin-left: 20px !important;
+        margin-right: 0 !important;
+        width: 145px !important;
+        display: flex !important;
+    }
+
+    .div5 {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 20px !important;
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .poqr9 {
+        flex: 1 1 480% !important;
+        flex-wrap: wrap !important;
+        max-width: 480% !important;
+        height: 1100px !important;
+        padding: 5px 10px;
+    }
+
+    .div6 {
+        height: 1000px;
+        width: 100%;
+    }
+
+    .poqr11 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5px;
+        margin: 0 auto;
+        padding: 30px 10px;
+        box-sizing: border-box;
+    }
+
+    .poqr12 {
+        width: 100%;
+        height: 140px;
+        border: 1px solid #ffffff9b;
+    }
+
+    .poqr12 img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .div {
+        flex: 1 1 48% !important;
+        max-width: 46% !important;
+        height: 490px !important;
+        padding: 10px !important;
+        box-sizing: border-box !important;
+    }
+
+    .testimonials-container {
+        padding: 30px 30px !important;
+        gap: 15px !important;
+    }
+
+    .cards-wrapper {
+        gap: 20px !important;
+    }
+
+    .testimonial-card {
+        flex: 1 0 100%;
+        width: 100% !important;
+        max-width: 400px !important;
+        height: auto !important;
+        padding: 30px 100px !important;
+    }
+
+    .slider-arrow {
+        padding: 0 !important;
+        width: 40px !important;
+        height: 40px !important;
+        font-size: 18px !important;
+    }
+
+    .div7 {
+        flex: 1 1 100% !important;
+        max-width: 100% !important;
+        height: 1600px !important;
+        flex-wrap: wrap;
+
+    }
+
+    .poqr13 {
+        width: 100%;
+        height: 50px;
+    }
+
+    .poqr14 {
+        flex: 1 1 100% !important;
+        flex-wrap: wrap !important;
+        max-width: 100% !important;
+        height: 900px !important;
+        padding: 5px 10px;
+    }
+
+    .divv1 {
+        max-width: 100% !important;
+        height: 460px !important;
+    }
+
+    .divv1 p {
+        font-size: 14px;
+        padding: 0px 0px;
+    }
+
+    .post-meta {
+        width: 100%;
+    }
+
+    .post-meta p {
+        font-size: 14px;
+    }
+
+    .div8 {
+        height: auto !important;
+        min-height: 100vh;
+        padding-bottom: 40px;
+    }
+
+    .poqr16 {
+        gap: 10px !important;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .poqr17 {
+        width: 40% !important;
+        padding: 10px 20px !important;
+        height: auto !important;
+    }
+
+    .contact-form {
+        width: 55% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        padding: 25px !important;
+        box-sizing: border-box;
+    }
+
+    .form-row {
+        gap: 15px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .submit-btn {
+        padding: 12px 25px !important;
+    }
+
+    .footer {
+        flex: 1 1 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        flex-wrap: wrap;
+    }
+
+    .foot {
+        flex: 1 1 38% !important;
+        flex-wrap: wrap !important;
+        max-width: 40% !important;
+        height: auto !important;
+        padding: 5px 10px;
+        display: flex;
+    }
+
+    .logo {
+        max-width: 30%;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .foot p {
+        color: #9293bc;
+        font-size: 10px;
+        font-family: 'Poppins', sans-serif;
+        line-height: 1.8;
+        font-weight: 400;
+        /* margin: 0 0 16px; */
+    }
+
+    .icons {
+        display: flex;
+        align-items: center;
+        gap: 5px
+    }
+
+    .foot_gellery {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        /* align-content: center; */
+        gap: 5px 5px;
+    }
+
+    .foot_gellery img {
+        width: calc(33.333% - 4px);
+        height: 95px;
+        object-fit: cover;
+        border-radius: 5px;
+        display: block;
+    }
+
+}
